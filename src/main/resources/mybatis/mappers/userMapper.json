@@ -1,0 +1,7 @@
+{
+  "namespace": "learn.manual.write.mappers.UserMapper",
+  "insert": "insert into user(id,name,age) values(#{id},#{name},#{age})",
+  "select": "select * from user where id=#{id}",
+  "update": "update user set age=#{age} where id =#{id}"
+}
+

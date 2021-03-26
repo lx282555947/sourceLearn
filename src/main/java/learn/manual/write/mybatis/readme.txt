@@ -1,0 +1,4 @@
+1、springboot启动时，读取springboot配置文件中的配置,将mapper的json加载入内存中
+2、根据mapper.json中的namespace可以找到其对应的Mapper
+3、启动的时候生成代理类，并交于springboot代理
+4、当调用Mapper中方法的时候，实际上是通过代理类进行调用。
